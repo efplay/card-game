@@ -5,7 +5,7 @@ function newFunction() {
         const cards = document.querySelectorAll(".card"), timeTag = document.querySelector(".time b"), flipsTag = document.querySelector(".flips b"), refreshBtn = document.querySelector('.refresh-btn');
         const startOverBtn = document.querySelector('.start-over-btn');
 
-        let maxTime = 20;
+        let maxTime = 60;
         let timeLeft = maxTime;
         let flips = 0;
         let matchedPairs = 0;
